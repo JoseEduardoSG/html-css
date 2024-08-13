@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(to left,#015958,#023535);
+    font-family: Arial, Helvetica, sans-serif ;
+
+}
+h1{
+    color: #0FC2C0;
+}
+h1#titulo{
+    width: 500px;
+    margin: auto;
+    text-align: center;
+    background-color: #023535;
+    padding: 10px;
+    border-radius: 10px;
+    color: aquamarine;
+    
+}
+
+h2{
+    color: #0CABA8;
+}
+
+p{
+    color: #008F8C;
+    text-align: justify;
+}
+div > p{
+    display: none;
+}
+div:active > p{
+    display: block;
+}
+div:hover >h2,p{
+   color: aliceblue;
+}
+h2::after{
+    content: ' ›';
+}
+
+button:active{
+    
+}
