@@ -14,7 +14,9 @@
     padding: 0px;
 }
 
-
+body{
+    background-color: lightgray;
+}
 
 header{
      display: flex;
