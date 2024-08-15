@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url(imagens/wallpaper001.jpg);
+            
+        }
+        div.bloco{
+
+            display: inline-block;
+            border: 1px solid black;
+            height: 300px;
+            width: 300px;
+            background-color: lightgray;
+            border-radius: 10px;
+
+        }
+
+        div#color{
+            background-color: lightskyblue;
+        }
+        div#linear{
+            background-image: linear-gradient(to bottom, yellow, red);
+        }
+        div#imagem{
+            background-image: url(imagens/pattern001.png);
+           
+        }
+
+    </style>
+</head>
+<body>
+    <div class="bloco" id="color"></div>
+    <div class="bloco" id="linear"></div>
+    <div class="bloco" id="imagem"></div>
+</body>
+</html>

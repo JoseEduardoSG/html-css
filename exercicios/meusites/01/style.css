@@ -73,8 +73,22 @@ main{
     background-position: left top;
     
 }
-div{
+div.fundo{
+    background-color: white;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 10px;
+    min-width: 300px;
+    max-width: 800px;
+    border-radius: 0px 0px 10px 10px;
+}
+div.bloco{
+    border: 1px solid green;
+    width: 100px;
+    height: 100px;
     display: inline-block;
-    background-color: #1A1A1A;
-    width: 50px;
+    background-color: aqua;
+    border-radius: 10px;
+    margin: auto;
+    
 }
