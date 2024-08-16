@@ -6,10 +6,8 @@
 }
 
 header{
-    background-color: rgb(40, 82, 68);
-    display: flex;
-    align-items: center;
-    flex-wrap: nowrap;
+    background-color: rgb(68, 255, 193);
+    text-align: center;
     
 }
 
